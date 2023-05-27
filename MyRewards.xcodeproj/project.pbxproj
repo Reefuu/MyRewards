@@ -18,6 +18,7 @@
 		422D9C672A11CA64004681D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D9C662A11CA64004681D7 /* ContentView.swift */; };
 		422D9C692A11CA65004681D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422D9C682A11CA65004681D7 /* Assets.xcassets */; };
 		422D9C6C2A11CA65004681D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422D9C6B2A11CA65004681D7 /* Preview Assets.xcassets */; };
+		429B4FF12A241E5800108787 /* CustomerViewInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF02A241E5800108787 /* CustomerViewInfoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		422D9C662A11CA64004681D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		422D9C682A11CA65004681D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		422D9C6B2A11CA65004681D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		429B4FF02A241E5800108787 /* CustomerViewInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewInfoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				04BDC7EB2A24161400BF278B /* Routing */,
 				04BDC7DE2A2413D000BF278B /* Models */,
+				429B4FED2A241DCE00108787 /* Views */,
 				422D9C642A11CA64004681D7 /* MyRewardsApp.swift */,
 				422D9C662A11CA64004681D7 /* ContentView.swift */,
 				422D9C682A11CA65004681D7 /* Assets.xcassets */,
@@ -102,6 +105,30 @@
 				422D9C6B2A11CA65004681D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		429B4FED2A241DCE00108787 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				429B4FEE2A241DE600108787 /* Customer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		429B4FEE2A241DE600108787 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				429B4FEF2A241E1700108787 /* CustomerStoreInfo */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		429B4FEF2A241E1700108787 /* CustomerStoreInfo */ = {
+			isa = PBXGroup;
+			children = (
+				429B4FF02A241E5800108787 /* CustomerViewInfoViewModel.swift */,
+			);
+			path = CustomerStoreInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +208,7 @@
 				04BDC7EA2A2415B100BF278B /* ViewFactory.swift in Sources */,
 				422D9C672A11CA64004681D7 /* ContentView.swift in Sources */,
 				04BDC7E42A2414EA00BF278B /* Coupon.swift in Sources */,
+				429B4FF12A241E5800108787 /* CustomerViewInfoViewModel.swift in Sources */,
 				422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */,
 				04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */,
 			);
