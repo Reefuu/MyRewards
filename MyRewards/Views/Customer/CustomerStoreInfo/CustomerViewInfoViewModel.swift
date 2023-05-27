@@ -7,6 +7,7 @@
 
 import Foundation
 
+extension CustomerStoreInfo{
     class ViewModel: ObservableObject {
         
         @Published var openSheet: Bool = false
@@ -14,4 +15,4 @@ import Foundation
         
         init() {}
     }
-
+}

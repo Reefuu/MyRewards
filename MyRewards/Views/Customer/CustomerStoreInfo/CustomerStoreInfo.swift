@@ -79,6 +79,13 @@ struct CustomerStoreInfo: View {
             .navigationTitle(appEnv.selectedLoyalty.store)
             .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .sheet(isPresented: $viewModel.openSheet) {
+            CustomerCouponViewSheet(coupon: $viewModel.selectedCoupon)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .edgesIgnoringSafeArea(.all)
+        .padding(.top, 30)
+        .background(Color.gray.opacity(0.1))
         
     }
 }
