@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BDC7DD2A2413C500BF278B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7DC2A2413C500BF278B /* Store.swift */; };
 		422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D9C642A11CA64004681D7 /* MyRewardsApp.swift */; };
 		422D9C672A11CA64004681D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D9C662A11CA64004681D7 /* ContentView.swift */; };
 		422D9C692A11CA65004681D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422D9C682A11CA65004681D7 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BDC7DC2A2413C500BF278B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		422D9C612A11CA64004681D7 /* MyRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422D9C642A11CA64004681D7 /* MyRewardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRewardsApp.swift; sourceTree = "<group>"; };
 		422D9C662A11CA64004681D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BDC7DE2A2413D000BF278B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04BDC7DC2A2413C500BF278B /* Store.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		422D9C582A11CA63004681D7 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		422D9C632A11CA64004681D7 /* MyRewards */ = {
 			isa = PBXGroup;
 			children = (
+				04BDC7DE2A2413D000BF278B /* Models */,
 				422D9C642A11CA64004681D7 /* MyRewardsApp.swift */,
 				422D9C662A11CA64004681D7 /* ContentView.swift */,
 				422D9C682A11CA65004681D7 /* Assets.xcassets */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BDC7DD2A2413C500BF278B /* Store.swift in Sources */,
 				422D9C672A11CA64004681D7 /* ContentView.swift in Sources */,
 				422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */,
 			);
