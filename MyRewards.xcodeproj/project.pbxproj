@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040313872A2449F800A30A12 /* QRCode in Frameworks */ = {isa = PBXBuildFile; productRef = 429B4FFD2A242B5D00108787 /* QRCode */; };
+		040313882A2449F800A30A12 /* Colorful in Frameworks */ = {isa = PBXBuildFile; productRef = 429B50052A242E0D00108787 /* Colorful */; };
+		0403138B2A244A2C00A30A12 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0403138A2A244A2C00A30A12 /* Alamofire */; };
+		0403138E2A244A7E00A30A12 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 0403138D2A244A7E00A30A12 /* CodeScanner */; };
+		040313912A244AEA00A30A12 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 040313902A244AEA00A30A12 /* SwiftyJSON */; };
 		04BDC7DD2A2413C500BF278B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7DC2A2413C500BF278B /* Store.swift */; };
 		04BDC7E02A24141500BF278B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7DF2A24141500BF278B /* User.swift */; };
 		04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E12A2414AF00BF278B /* Loyalty.swift */; };
@@ -51,8 +56,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				429B50062A242E0D00108787 /* Colorful in Frameworks */,
-				429B4FFE2A242B5D00108787 /* QRCode in Frameworks */,
+				0403138E2A244A7E00A30A12 /* CodeScanner in Frameworks */,
+				0403138B2A244A2C00A30A12 /* Alamofire in Frameworks */,
+				040313882A2449F800A30A12 /* Colorful in Frameworks */,
+				040313912A244AEA00A30A12 /* SwiftyJSON in Frameworks */,
+				040313872A2449F800A30A12 /* QRCode in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +92,6 @@
 		2539380A2A242B6100928CD2 /* Http */ = {
 			isa = PBXGroup;
 			children = (
-				2539380D2A242B9800928CD2 /* APIManager.swift */,
-				2539380B2A242B9800928CD2 /* LoyaltyAPI.swift */,
-				2539380C2A242B9800928CD2 /* StoreAPI.swift */,
-				2539380E2A242B9800928CD2 /* UserAPI.swift */,
 			);
 			path = Http;
 			sourceTree = "<group>";
@@ -95,8 +99,6 @@
 		253938152A242D4C00928CD2 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
-				253938162A242D4C00928CD2 /* SignIn.swift */,
-				253938172A242D4C00928CD2 /* SignInViewModel.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -120,7 +122,6 @@
 		422D9C632A11CA64004681D7 /* MyRewards */ = {
 			isa = PBXGroup;
 			children = (
-				253938132A242C7100928CD2 /* Info.plist */,
 				2539380A2A242B6100928CD2 /* Http */,
 				04BDC7EB2A24161400BF278B /* Routing */,
 				04BDC7DE2A2413D000BF278B /* Models */,
@@ -199,6 +200,9 @@
 			packageProductDependencies = (
 				429B4FFD2A242B5D00108787 /* QRCode */,
 				429B50052A242E0D00108787 /* Colorful */,
+				0403138A2A244A2C00A30A12 /* Alamofire */,
+				0403138D2A244A7E00A30A12 /* CodeScanner */,
+				040313902A244AEA00A30A12 /* SwiftyJSON */,
 			);
 			productName = MyRewards;
 			productReference = 422D9C612A11CA64004681D7 /* MyRewards.app */;
@@ -231,6 +235,9 @@
 			packageReferences = (
 				429B4FFC2A242B5D00108787 /* XCRemoteSwiftPackageReference "qrcode" */,
 				429B50042A242E0D00108787 /* XCRemoteSwiftPackageReference "Colorful" */,
+				040313892A244A2C00A30A12 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0403138C2A244A7E00A30A12 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				0403138F2A244AEA00A30A12 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 422D9C622A11CA64004681D7 /* Products */;
 			projectDirPath = "";
@@ -248,7 +255,6 @@
 			files = (
 				422D9C6C2A11CA65004681D7 /* Preview Assets.xcassets in Resources */,
 				422D9C692A11CA65004681D7 /* Assets.xcassets in Resources */,
-				253938142A242C7100928CD2 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,28 +265,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2539380F2A242B9800928CD2 /* LoyaltyAPI.swift in Sources */,
-				253938122A242B9800928CD2 /* UserAPI.swift in Sources */,
-				253938182A242D4C00928CD2 /* SignIn.swift in Sources */,
 				04BDC7E62A24152200BF278B /* APIResponse.swift in Sources */,
 				04BDC7E82A24157000BF278B /* Routes.swift in Sources */,
 				04BDC7E02A24141500BF278B /* User.swift in Sources */,
 				04BDC7DD2A2413C500BF278B /* Store.swift in Sources */,
 				04BDC7EA2A2415B100BF278B /* ViewFactory.swift in Sources */,
-				253938102A242B9800928CD2 /* StoreAPI.swift in Sources */,
 				429B4FF52A241FB200108787 /* AppEnvironment.swift in Sources */,
 				422D9C672A11CA64004681D7 /* ContentView.swift in Sources */,
-				429B50092A242E3300108787 /* OverlayableLoadingIndicator.swift in Sources */,
 				04BDC7E42A2414EA00BF278B /* Coupon.swift in Sources */,
 				429B4FF12A241E5800108787 /* CustomerViewInfoViewModel.swift in Sources */,
 				429B4FF32A241F4900108787 /* CustomerStoreInfo.swift in Sources */,
-				253938192A242D4C00928CD2 /* SignInViewModel.swift in Sources */,
-				253938112A242B9800928CD2 /* APIManager.swift in Sources */,
 				422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */,
 				04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */,
-				429B4FF92A242ABA00108787 /* CustomerCouponViewSheet.swift in Sources */,
-				429B50022A242DC900108787 /* Homepage.swift in Sources */,
-				429B500A2A242E3300108787 /* ActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +479,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		040313892A244A2C00A30A12 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		0403138C2A244A7E00A30A12 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		0403138F2A244AEA00A30A12 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		429B4FFC2A242B5D00108787 /* XCRemoteSwiftPackageReference "qrcode" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/dagronf/qrcode.git";
@@ -502,6 +522,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0403138A2A244A2C00A30A12 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040313892A244A2C00A30A12 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		0403138D2A244A7E00A30A12 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0403138C2A244A7E00A30A12 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		040313902A244AEA00A30A12 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0403138F2A244AEA00A30A12 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
 		429B4FFD2A242B5D00108787 /* QRCode */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 429B4FFC2A242B5D00108787 /* XCRemoteSwiftPackageReference "qrcode" */;
