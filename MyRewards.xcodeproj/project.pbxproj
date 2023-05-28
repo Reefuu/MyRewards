@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04BDC7DD2A2413C500BF278B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7DC2A2413C500BF278B /* Store.swift */; };
 		04BDC7E02A24141500BF278B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7DF2A24141500BF278B /* User.swift */; };
+		04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E12A2414AF00BF278B /* Loyalty.swift */; };
 		422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D9C642A11CA64004681D7 /* MyRewardsApp.swift */; };
 		422D9C672A11CA64004681D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D9C662A11CA64004681D7 /* ContentView.swift */; };
 		422D9C692A11CA65004681D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422D9C682A11CA65004681D7 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		04BDC7DC2A2413C500BF278B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		04BDC7DF2A24141500BF278B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		04BDC7E12A2414AF00BF278B /* Loyalty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loyalty.swift; sourceTree = "<group>"; };
 		422D9C612A11CA64004681D7 /* MyRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422D9C642A11CA64004681D7 /* MyRewardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRewardsApp.swift; sourceTree = "<group>"; };
 		422D9C662A11CA64004681D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			children = (
 				04BDC7DC2A2413C500BF278B /* Store.swift */,
 				04BDC7DF2A24141500BF278B /* User.swift */,
+				04BDC7E12A2414AF00BF278B /* Loyalty.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				04BDC7DD2A2413C500BF278B /* Store.swift in Sources */,
 				422D9C672A11CA64004681D7 /* ContentView.swift in Sources */,
 				422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */,
+				04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
