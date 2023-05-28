@@ -58,6 +58,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		04BDC7EB2A24161400BF278B /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				04BDC7E92A2415B100BF278B /* ViewFactory.swift */,
+				04BDC7E72A24157000BF278B /* Routes.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
 		422D9C582A11CA63004681D7 = {
 			isa = PBXGroup;
 			children = (
@@ -77,13 +86,12 @@
 		422D9C632A11CA64004681D7 /* MyRewards */ = {
 			isa = PBXGroup;
 			children = (
-				04BDC7E72A24157000BF278B /* Routes.swift */,
+				04BDC7EB2A24161400BF278B /* Routing */,
 				04BDC7DE2A2413D000BF278B /* Models */,
 				422D9C642A11CA64004681D7 /* MyRewardsApp.swift */,
 				422D9C662A11CA64004681D7 /* ContentView.swift */,
 				422D9C682A11CA65004681D7 /* Assets.xcassets */,
 				422D9C6A2A11CA65004681D7 /* Preview Content */,
-				04BDC7E92A2415B100BF278B /* ViewFactory.swift */,
 			);
 			path = MyRewards;
 			sourceTree = "<group>";
