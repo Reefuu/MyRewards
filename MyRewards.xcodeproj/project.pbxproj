@@ -23,6 +23,11 @@
 		429B4FF52A241FB200108787 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF42A241FB200108787 /* AppEnvironment.swift */; };
 		429B4FF92A242ABA00108787 /* CustomerCouponViewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF82A242ABA00108787 /* CustomerCouponViewSheet.swift */; };
 		429B4FFE2A242B5D00108787 /* QRCode in Frameworks */ = {isa = PBXBuildFile; productRef = 429B4FFD2A242B5D00108787 /* QRCode */; };
+		429B50022A242DC900108787 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B50002A242DC900108787 /* Homepage.swift */; };
+		429B50032A242DC900108787 /* HomepageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B50012A242DC900108787 /* HomepageViewModel.swift */; };
+		429B50062A242E0D00108787 /* Colorful in Frameworks */ = {isa = PBXBuildFile; productRef = 429B50052A242E0D00108787 /* Colorful */; };
+		429B50092A242E3300108787 /* OverlayableLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B50072A242E3300108787 /* OverlayableLoadingIndicator.swift */; };
+		429B500A2A242E3300108787 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B50082A242E3300108787 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,10 @@
 		429B4FF22A241F4900108787 /* CustomerStoreInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerStoreInfo.swift; sourceTree = "<group>"; };
 		429B4FF42A241FB200108787 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		429B4FF82A242ABA00108787 /* CustomerCouponViewSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerCouponViewSheet.swift; sourceTree = "<group>"; };
+		429B50002A242DC900108787 /* Homepage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		429B50012A242DC900108787 /* HomepageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewModel.swift; sourceTree = "<group>"; };
+		429B50072A242E3300108787 /* OverlayableLoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayableLoadingIndicator.swift; sourceTree = "<group>"; };
+		429B50082A242E3300108787 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429B50062A242E0D00108787 /* Colorful in Frameworks */,
 				429B4FFE2A242B5D00108787 /* QRCode in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +110,8 @@
 				04BDC7EB2A24161400BF278B /* Routing */,
 				04BDC7DE2A2413D000BF278B /* Models */,
 				429B4FED2A241DCE00108787 /* Views */,
+				429B50082A242E3300108787 /* ActivityIndicator.swift */,
+				429B50072A242E3300108787 /* OverlayableLoadingIndicator.swift */,
 				422D9C642A11CA64004681D7 /* MyRewardsApp.swift */,
 				422D9C662A11CA64004681D7 /* ContentView.swift */,
 				422D9C682A11CA65004681D7 /* Assets.xcassets */,
@@ -128,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				429B4FEF2A241E1700108787 /* CustomerStoreInfo */,
+				429B4FFF2A242DC900108787 /* Homepage */,
 			);
 			path = Customer;
 			sourceTree = "<group>";
@@ -140,6 +153,15 @@
 				429B4FF82A242ABA00108787 /* CustomerCouponViewSheet.swift */,
 			);
 			path = CustomerStoreInfo;
+			sourceTree = "<group>";
+		};
+		429B4FFF2A242DC900108787 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				429B50002A242DC900108787 /* Homepage.swift */,
+				429B50012A242DC900108787 /* HomepageViewModel.swift */,
+			);
+			path = Homepage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +182,7 @@
 			name = MyRewards;
 			packageProductDependencies = (
 				429B4FFD2A242B5D00108787 /* QRCode */,
+				429B50052A242E0D00108787 /* Colorful */,
 			);
 			productName = MyRewards;
 			productReference = 422D9C612A11CA64004681D7 /* MyRewards.app */;
@@ -191,6 +214,7 @@
 			mainGroup = 422D9C582A11CA63004681D7;
 			packageReferences = (
 				429B4FFC2A242B5D00108787 /* XCRemoteSwiftPackageReference "qrcode" */,
+				429B50042A242E0D00108787 /* XCRemoteSwiftPackageReference "Colorful" */,
 			);
 			productRefGroup = 422D9C622A11CA64004681D7 /* Products */;
 			projectDirPath = "";
@@ -225,12 +249,16 @@
 				04BDC7EA2A2415B100BF278B /* ViewFactory.swift in Sources */,
 				429B4FF52A241FB200108787 /* AppEnvironment.swift in Sources */,
 				422D9C672A11CA64004681D7 /* ContentView.swift in Sources */,
+				429B50092A242E3300108787 /* OverlayableLoadingIndicator.swift in Sources */,
 				04BDC7E42A2414EA00BF278B /* Coupon.swift in Sources */,
 				429B4FF12A241E5800108787 /* CustomerViewInfoViewModel.swift in Sources */,
 				429B4FF32A241F4900108787 /* CustomerStoreInfo.swift in Sources */,
+				429B50032A242DC900108787 /* HomepageViewModel.swift in Sources */,
 				422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */,
 				04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */,
 				429B4FF92A242ABA00108787 /* CustomerCouponViewSheet.swift in Sources */,
+				429B50022A242DC900108787 /* Homepage.swift in Sources */,
+				429B500A2A242E3300108787 /* ActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +469,14 @@
 				minimumVersion = 14.0.0;
 			};
 		};
+		429B50042A242E0D00108787 /* XCRemoteSwiftPackageReference "Colorful" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lakr233/Colorful.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -448,6 +484,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 429B4FFC2A242B5D00108787 /* XCRemoteSwiftPackageReference "qrcode" */;
 			productName = QRCode;
+		};
+		429B50052A242E0D00108787 /* Colorful */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 429B50042A242E0D00108787 /* XCRemoteSwiftPackageReference "Colorful" */;
+			productName = Colorful;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
