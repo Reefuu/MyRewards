@@ -1,8 +1,8 @@
 //
 //  HomepageViewModel.swift
-//  royaltyplaza
+//  MyRewards
 //
-//  Created by Rama Adi Nugraha on 29/05/23.
+//  Created by Macbook Pro on 29/05/23.
 //
 
 import Foundation

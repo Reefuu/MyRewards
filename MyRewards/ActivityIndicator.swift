@@ -1,8 +1,8 @@
 //
 //  ActivityIndicator.swift
-//  royaltyplaza
+//  MyRewards
 //
-//  Created by Rama Adi Nugraha on 28/05/23.
+//  Created by Macbook Pro on 28/05/23.
 //
 
 import Foundation
