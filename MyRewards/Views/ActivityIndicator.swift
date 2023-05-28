@@ -14,6 +14,7 @@ struct ActivityIndicator: View {
     var body: some View {
     
         VStack {
+            
             ProgressView()
                 .progressViewStyle(CircularProgressViewStyle())
                 .scaleEffect(2)

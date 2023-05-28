@@ -35,15 +35,15 @@ struct CustomerStoreInfo: View {
                     
                     Text(appEnv.selectedLoyalty.store)
                         .font(.system(size: 20, weight: .bold))
-                        .foregroundColor(Color(appEnv.selectedLoyalty.foregroundColor))
+                        .foregroundColor(Color(hex: appEnv.selectedLoyalty.foregroundColor))
                     Text("\(appEnv.selectedLoyalty.points) Points")
                         .font(.system(size: 20, weight: .semibold))
-                        .foregroundColor(Color(appEnv.selectedLoyalty.foregroundColor))
+                        .foregroundColor(Color(hex: appEnv.selectedLoyalty.foregroundColor))
                 }
                 .padding()
                 .frame(height: 200)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .background(Color(appEnv.selectedLoyalty.backgroundColor))
+                .background(Color(hex: appEnv.selectedLoyalty.backgroundColor))
                 .cornerRadius(10)
                 
                 Text("Your coupons")

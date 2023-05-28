@@ -37,6 +37,9 @@
 		429B4FF12A241E5800108787 /* CustomerViewInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF02A241E5800108787 /* CustomerViewInfoViewModel.swift */; };
 		429B4FF32A241F4900108787 /* CustomerStoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF22A241F4900108787 /* CustomerStoreInfo.swift */; };
 		429B4FF52A241FB200108787 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF42A241FB200108787 /* AppEnvironment.swift */; };
+		42A41D272A2CC7BA003BCEC9 /* HomepageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B50012A242DC900108787 /* HomepageViewModel.swift */; };
+		42A41D282A2CC7BE003BCEC9 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B50002A242DC900108787 /* Homepage.swift */; };
+		42A41D292A2CC7C0003BCEC9 /* CustomerCouponViewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF82A242ABA00108787 /* CustomerCouponViewSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +51,8 @@
 		04BDC7E12A2414AF00BF278B /* Loyalty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loyalty.swift; sourceTree = "<group>"; };
 		04BDC7E32A2414EA00BF278B /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
 		04BDC7E52A24152200BF278B /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
-		25785C472A2CBC5E00D45C91 /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewModel.swift; path = ../../../../../Downloads/royaltyplaza/royaltyplaza/Views/SignIn/SignInViewModel.swift; sourceTree = "<group>"; };
-		25785C482A2CBC5E00D45C91 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignIn.swift; path = ../../../../../Downloads/royaltyplaza/royaltyplaza/Views/SignIn/SignIn.swift; sourceTree = "<group>"; };
+		25785C472A2CBC5E00D45C91 /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		25785C482A2CBC5E00D45C91 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		25785C4B2A2CBC6F00D45C91 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = ../Routing/APIManager.swift; sourceTree = "<group>"; };
 		25785C4C2A2CBC6F00D45C91 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserAPI.swift; path = ../Routing/UserAPI.swift; sourceTree = "<group>"; };
 		25785C4D2A2CBC6F00D45C91 /* StoreAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoreAPI.swift; path = ../Routing/StoreAPI.swift; sourceTree = "<group>"; };
@@ -198,10 +201,10 @@
 			isa = PBXGroup;
 			children = (
 				0481301E2A2CC6CA00BCDE80 /* Worker */,
-				429B50082A242E3300108787 /* ActivityIndicator.swift */,
-				429B50072A242E3300108787 /* OverlayableLoadingIndicator.swift */,
 				253938152A242D4C00928CD2 /* SignIn */,
 				429B4FEE2A241DE600108787 /* Customer */,
+				429B50082A242E3300108787 /* ActivityIndicator.swift */,
+				429B50072A242E3300108787 /* OverlayableLoadingIndicator.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,13 +324,16 @@
 				25785C4A2A2CBC5E00D45C91 /* SignIn.swift in Sources */,
 				048130232A2CC6CA00BCDE80 /* WorkerHomepage.swift in Sources */,
 				25785C502A2CBC6F00D45C91 /* UserAPI.swift in Sources */,
+				42A41D282A2CC7BE003BCEC9 /* Homepage.swift in Sources */,
 				04BDC7E62A24152200BF278B /* APIResponse.swift in Sources */,
+				42A41D272A2CC7BA003BCEC9 /* HomepageViewModel.swift in Sources */,
 				0481301D2A2CC6A400BCDE80 /* Color+Manipulation.swift in Sources */,
 				04BDC7E02A24141500BF278B /* User.swift in Sources */,
 				04BDC7DD2A2413C500BF278B /* Store.swift in Sources */,
 				25785C512A2CBC6F00D45C91 /* StoreAPI.swift in Sources */,
 				25785C572A2CC10F00D45C91 /* OverlayableLoadingIndicator.swift in Sources */,
 				429B4FF52A241FB200108787 /* AppEnvironment.swift in Sources */,
+				42A41D292A2CC7C0003BCEC9 /* CustomerCouponViewSheet.swift in Sources */,
 				25785C492A2CBC5E00D45C91 /* SignInViewModel.swift in Sources */,
 				422D9C672A11CA64004681D7 /* ContentView.swift in Sources */,
 				04BDC7E42A2414EA00BF278B /* Coupon.swift in Sources */,

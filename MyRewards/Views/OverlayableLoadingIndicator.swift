@@ -10,9 +10,12 @@ import SwiftUI
 
 struct OverlayableLoadingIndicator: View {
     var body: some View {
+        
         VStack {
+            
             Spacer()
             HStack {
+                
                 ProgressView()
                     .progressViewStyle(CircularProgressViewStyle(tint: .gray))
                     .scaleEffect(2)
