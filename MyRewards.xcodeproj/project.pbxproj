@@ -17,8 +17,12 @@
 		04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E12A2414AF00BF278B /* Loyalty.swift */; };
 		04BDC7E42A2414EA00BF278B /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E32A2414EA00BF278B /* Coupon.swift */; };
 		04BDC7E62A24152200BF278B /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E52A24152200BF278B /* APIResponse.swift */; };
-		04BDC7E82A24157000BF278B /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E72A24157000BF278B /* Routes.swift */; };
-		04BDC7EA2A2415B100BF278B /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E92A2415B100BF278B /* ViewFactory.swift */; };
+		25785C492A2CBC5E00D45C91 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25785C472A2CBC5E00D45C91 /* SignInViewModel.swift */; };
+		25785C4A2A2CBC5E00D45C91 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25785C482A2CBC5E00D45C91 /* SignIn.swift */; };
+		25785C4F2A2CBC6F00D45C91 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25785C4B2A2CBC6F00D45C91 /* APIManager.swift */; };
+		25785C502A2CBC6F00D45C91 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25785C4C2A2CBC6F00D45C91 /* UserAPI.swift */; };
+		25785C512A2CBC6F00D45C91 /* StoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25785C4D2A2CBC6F00D45C91 /* StoreAPI.swift */; };
+		25785C522A2CBC6F00D45C91 /* LoyaltyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25785C4E2A2CBC6F00D45C91 /* LoyaltyAPI.swift */; };
 		422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D9C642A11CA64004681D7 /* MyRewardsApp.swift */; };
 		422D9C672A11CA64004681D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D9C662A11CA64004681D7 /* ContentView.swift */; };
 		422D9C692A11CA65004681D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422D9C682A11CA65004681D7 /* Assets.xcassets */; };
@@ -34,8 +38,12 @@
 		04BDC7E12A2414AF00BF278B /* Loyalty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loyalty.swift; sourceTree = "<group>"; };
 		04BDC7E32A2414EA00BF278B /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
 		04BDC7E52A24152200BF278B /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
-		04BDC7E72A24157000BF278B /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
-		04BDC7E92A2415B100BF278B /* ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
+		25785C472A2CBC5E00D45C91 /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewModel.swift; path = ../../../../../Downloads/royaltyplaza/royaltyplaza/Views/SignIn/SignInViewModel.swift; sourceTree = "<group>"; };
+		25785C482A2CBC5E00D45C91 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignIn.swift; path = ../../../../../Downloads/royaltyplaza/royaltyplaza/Views/SignIn/SignIn.swift; sourceTree = "<group>"; };
+		25785C4B2A2CBC6F00D45C91 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		25785C4C2A2CBC6F00D45C91 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		25785C4D2A2CBC6F00D45C91 /* StoreAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreAPI.swift; sourceTree = "<group>"; };
+		25785C4E2A2CBC6F00D45C91 /* LoyaltyAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoyaltyAPI.swift; sourceTree = "<group>"; };
 		422D9C612A11CA64004681D7 /* MyRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422D9C642A11CA64004681D7 /* MyRewardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRewardsApp.swift; sourceTree = "<group>"; };
 		422D9C662A11CA64004681D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,8 +91,10 @@
 		04BDC7EB2A24161400BF278B /* Routing */ = {
 			isa = PBXGroup;
 			children = (
-				04BDC7E92A2415B100BF278B /* ViewFactory.swift */,
-				04BDC7E72A24157000BF278B /* Routes.swift */,
+				25785C4B2A2CBC6F00D45C91 /* APIManager.swift */,
+				25785C4E2A2CBC6F00D45C91 /* LoyaltyAPI.swift */,
+				25785C4D2A2CBC6F00D45C91 /* StoreAPI.swift */,
+				25785C4C2A2CBC6F00D45C91 /* UserAPI.swift */,
 			);
 			path = Routing;
 			sourceTree = "<group>";
@@ -99,6 +109,8 @@
 		253938152A242D4C00928CD2 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				25785C482A2CBC5E00D45C91 /* SignIn.swift */,
+				25785C472A2CBC5E00D45C91 /* SignInViewModel.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -265,18 +277,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25785C4A2A2CBC5E00D45C91 /* SignIn.swift in Sources */,
+				25785C502A2CBC6F00D45C91 /* UserAPI.swift in Sources */,
 				04BDC7E62A24152200BF278B /* APIResponse.swift in Sources */,
-				04BDC7E82A24157000BF278B /* Routes.swift in Sources */,
 				04BDC7E02A24141500BF278B /* User.swift in Sources */,
 				04BDC7DD2A2413C500BF278B /* Store.swift in Sources */,
-				04BDC7EA2A2415B100BF278B /* ViewFactory.swift in Sources */,
+				25785C512A2CBC6F00D45C91 /* StoreAPI.swift in Sources */,
 				429B4FF52A241FB200108787 /* AppEnvironment.swift in Sources */,
+				25785C492A2CBC5E00D45C91 /* SignInViewModel.swift in Sources */,
 				422D9C672A11CA64004681D7 /* ContentView.swift in Sources */,
 				04BDC7E42A2414EA00BF278B /* Coupon.swift in Sources */,
 				429B4FF12A241E5800108787 /* CustomerViewInfoViewModel.swift in Sources */,
 				429B4FF32A241F4900108787 /* CustomerStoreInfo.swift in Sources */,
+				25785C4F2A2CBC6F00D45C91 /* APIManager.swift in Sources */,
 				422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */,
 				04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */,
+				25785C522A2CBC6F00D45C91 /* LoyaltyAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
