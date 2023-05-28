@@ -19,6 +19,8 @@
 		422D9C692A11CA65004681D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422D9C682A11CA65004681D7 /* Assets.xcassets */; };
 		422D9C6C2A11CA65004681D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422D9C6B2A11CA65004681D7 /* Preview Assets.xcassets */; };
 		429B4FF12A241E5800108787 /* CustomerViewInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF02A241E5800108787 /* CustomerViewInfoViewModel.swift */; };
+		429B4FF32A241F4900108787 /* CustomerStoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF22A241F4900108787 /* CustomerStoreInfo.swift */; };
+		429B4FF52A241FB200108787 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF42A241FB200108787 /* AppEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		422D9C682A11CA65004681D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		422D9C6B2A11CA65004681D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		429B4FF02A241E5800108787 /* CustomerViewInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewInfoViewModel.swift; sourceTree = "<group>"; };
+		429B4FF22A241F4900108787 /* CustomerStoreInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerStoreInfo.swift; sourceTree = "<group>"; };
+		429B4FF42A241FB200108787 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 				04BDC7E12A2414AF00BF278B /* Loyalty.swift */,
 				04BDC7E32A2414EA00BF278B /* Coupon.swift */,
 				04BDC7E52A24152200BF278B /* APIResponse.swift */,
+				429B4FF42A241FB200108787 /* AppEnvironment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 		429B4FEF2A241E1700108787 /* CustomerStoreInfo */ = {
 			isa = PBXGroup;
 			children = (
+				429B4FF22A241F4900108787 /* CustomerStoreInfo.swift */,
 				429B4FF02A241E5800108787 /* CustomerViewInfoViewModel.swift */,
 			);
 			path = CustomerStoreInfo;
@@ -206,9 +212,11 @@
 				04BDC7E02A24141500BF278B /* User.swift in Sources */,
 				04BDC7DD2A2413C500BF278B /* Store.swift in Sources */,
 				04BDC7EA2A2415B100BF278B /* ViewFactory.swift in Sources */,
+				429B4FF52A241FB200108787 /* AppEnvironment.swift in Sources */,
 				422D9C672A11CA64004681D7 /* ContentView.swift in Sources */,
 				04BDC7E42A2414EA00BF278B /* Coupon.swift in Sources */,
 				429B4FF12A241E5800108787 /* CustomerViewInfoViewModel.swift in Sources */,
+				429B4FF32A241F4900108787 /* CustomerStoreInfo.swift in Sources */,
 				422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */,
 				04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */,
 			);
