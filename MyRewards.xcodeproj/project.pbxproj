@@ -21,6 +21,8 @@
 		429B4FF12A241E5800108787 /* CustomerViewInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF02A241E5800108787 /* CustomerViewInfoViewModel.swift */; };
 		429B4FF32A241F4900108787 /* CustomerStoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF22A241F4900108787 /* CustomerStoreInfo.swift */; };
 		429B4FF52A241FB200108787 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF42A241FB200108787 /* AppEnvironment.swift */; };
+		429B4FF92A242ABA00108787 /* CustomerCouponViewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429B4FF82A242ABA00108787 /* CustomerCouponViewSheet.swift */; };
+		429B4FFE2A242B5D00108787 /* QRCode in Frameworks */ = {isa = PBXBuildFile; productRef = 429B4FFD2A242B5D00108787 /* QRCode */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,7 @@
 		429B4FF02A241E5800108787 /* CustomerViewInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewInfoViewModel.swift; sourceTree = "<group>"; };
 		429B4FF22A241F4900108787 /* CustomerStoreInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerStoreInfo.swift; sourceTree = "<group>"; };
 		429B4FF42A241FB200108787 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		429B4FF82A242ABA00108787 /* CustomerCouponViewSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerCouponViewSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429B4FFE2A242B5D00108787 /* QRCode in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +137,7 @@
 			children = (
 				429B4FF22A241F4900108787 /* CustomerStoreInfo.swift */,
 				429B4FF02A241E5800108787 /* CustomerViewInfoViewModel.swift */,
+				429B4FF82A242ABA00108787 /* CustomerCouponViewSheet.swift */,
 			);
 			path = CustomerStoreInfo;
 			sourceTree = "<group>";
@@ -153,6 +158,9 @@
 			dependencies = (
 			);
 			name = MyRewards;
+			packageProductDependencies = (
+				429B4FFD2A242B5D00108787 /* QRCode */,
+			);
 			productName = MyRewards;
 			productReference = 422D9C612A11CA64004681D7 /* MyRewards.app */;
 			productType = "com.apple.product-type.application";
@@ -181,6 +189,9 @@
 				Base,
 			);
 			mainGroup = 422D9C582A11CA63004681D7;
+			packageReferences = (
+				429B4FFC2A242B5D00108787 /* XCRemoteSwiftPackageReference "qrcode" */,
+			);
 			productRefGroup = 422D9C622A11CA64004681D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -219,6 +230,7 @@
 				429B4FF32A241F4900108787 /* CustomerStoreInfo.swift in Sources */,
 				422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */,
 				04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */,
+				429B4FF92A242ABA00108787 /* CustomerCouponViewSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +431,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		429B4FFC2A242B5D00108787 /* XCRemoteSwiftPackageReference "qrcode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dagronf/qrcode.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		429B4FFD2A242B5D00108787 /* QRCode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 429B4FFC2A242B5D00108787 /* XCRemoteSwiftPackageReference "qrcode" */;
+			productName = QRCode;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 422D9C592A11CA63004681D7 /* Project object */;
 }
