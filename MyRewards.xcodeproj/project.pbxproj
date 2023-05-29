@@ -19,6 +19,8 @@
 		253938112A242B9800928CD2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2539380D2A242B9800928CD2 /* APIManager.swift */; };
 		253938122A242B9800928CD2 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2539380E2A242B9800928CD2 /* UserAPI.swift */; };
 		253938142A242C7100928CD2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 253938132A242C7100928CD2 /* Info.plist */; };
+		253938182A242D4C00928CD2 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253938162A242D4C00928CD2 /* SignIn.swift */; };
+		253938192A242D4C00928CD2 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253938172A242D4C00928CD2 /* SignInViewModel.swift */; };
 		422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D9C642A11CA64004681D7 /* MyRewardsApp.swift */; };
 		422D9C672A11CA64004681D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D9C662A11CA64004681D7 /* ContentView.swift */; };
 		422D9C692A11CA65004681D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422D9C682A11CA65004681D7 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 		2539380D2A242B9800928CD2 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		2539380E2A242B9800928CD2 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
 		253938132A242C7100928CD2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253938162A242D4C00928CD2 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		253938172A242D4C00928CD2 /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		422D9C612A11CA64004681D7 /* MyRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422D9C642A11CA64004681D7 /* MyRewardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRewardsApp.swift; sourceTree = "<group>"; };
 		422D9C662A11CA64004681D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,15 @@
 			path = Http;
 			sourceTree = "<group>";
 		};
+		253938152A242D4C00928CD2 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				253938162A242D4C00928CD2 /* SignIn.swift */,
+				253938172A242D4C00928CD2 /* SignInViewModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
 		422D9C582A11CA63004681D7 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +151,7 @@
 		429B4FED2A241DCE00108787 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				253938152A242D4C00928CD2 /* SignIn */,
 				429B4FEE2A241DE600108787 /* Customer */,
 			);
 			path = Views;
@@ -233,6 +247,7 @@
 			files = (
 				2539380F2A242B9800928CD2 /* LoyaltyAPI.swift in Sources */,
 				253938122A242B9800928CD2 /* UserAPI.swift in Sources */,
+				253938182A242D4C00928CD2 /* SignIn.swift in Sources */,
 				04BDC7E62A24152200BF278B /* APIResponse.swift in Sources */,
 				04BDC7E82A24157000BF278B /* Routes.swift in Sources */,
 				04BDC7E02A24141500BF278B /* User.swift in Sources */,
@@ -244,6 +259,7 @@
 				04BDC7E42A2414EA00BF278B /* Coupon.swift in Sources */,
 				429B4FF12A241E5800108787 /* CustomerViewInfoViewModel.swift in Sources */,
 				429B4FF32A241F4900108787 /* CustomerStoreInfo.swift in Sources */,
+				253938192A242D4C00928CD2 /* SignInViewModel.swift in Sources */,
 				253938112A242B9800928CD2 /* APIManager.swift in Sources */,
 				422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */,
 				04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */,
