@@ -14,6 +14,7 @@
 		04BDC7E62A24152200BF278B /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E52A24152200BF278B /* APIResponse.swift */; };
 		04BDC7E82A24157000BF278B /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E72A24157000BF278B /* Routes.swift */; };
 		04BDC7EA2A2415B100BF278B /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E92A2415B100BF278B /* ViewFactory.swift */; };
+		04BDC7EE2A243FF200BF278B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 04BDC7ED2A243FF200BF278B /* Alamofire */; };
 		422D9C652A11CA64004681D7 /* MyRewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D9C642A11CA64004681D7 /* MyRewardsApp.swift */; };
 		422D9C672A11CA64004681D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D9C662A11CA64004681D7 /* ContentView.swift */; };
 		422D9C692A11CA65004681D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422D9C682A11CA65004681D7 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 			files = (
 				429B50062A242E0D00108787 /* Colorful in Frameworks */,
 				429B4FFE2A242B5D00108787 /* QRCode in Frameworks */,
+				04BDC7EE2A243FF200BF278B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +201,7 @@
 			packageProductDependencies = (
 				429B4FFD2A242B5D00108787 /* QRCode */,
 				429B50052A242E0D00108787 /* Colorful */,
+				04BDC7ED2A243FF200BF278B /* Alamofire */,
 			);
 			productName = MyRewards;
 			productReference = 422D9C612A11CA64004681D7 /* MyRewards.app */;
@@ -231,6 +234,7 @@
 			packageReferences = (
 				429B4FFC2A242B5D00108787 /* XCRemoteSwiftPackageReference "qrcode" */,
 				429B50042A242E0D00108787 /* XCRemoteSwiftPackageReference "Colorful" */,
+				04BDC7EC2A243FF200BF278B /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 422D9C622A11CA64004681D7 /* Products */;
 			projectDirPath = "";
@@ -497,6 +501,12 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
+		04BDC7EC2A243FF200BF278B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -511,6 +521,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 429B50042A242E0D00108787 /* XCRemoteSwiftPackageReference "Colorful" */;
 			productName = Colorful;
+		04BDC7ED2A243FF200BF278B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04BDC7EC2A243FF200BF278B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
