@@ -20,6 +20,7 @@
 		04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E12A2414AF00BF278B /* Loyalty.swift */; };
 		04BDC7E42A2414EA00BF278B /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E32A2414EA00BF278B /* Coupon.swift */; };
 		04BDC7E62A24152200BF278B /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E52A24152200BF278B /* APIResponse.swift */; };
+		04E4334B2A2CD59700EA94D6 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4334A2A2CD59700EA94D6 /* Onboarding.swift */; };
 		25785C492A2CBC5E00D45C91 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25785C472A2CBC5E00D45C91 /* SignInViewModel.swift */; };
 		25785C4A2A2CBC5E00D45C91 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25785C482A2CBC5E00D45C91 /* SignIn.swift */; };
 		25785C4F2A2CBC6F00D45C91 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25785C4B2A2CBC6F00D45C91 /* APIManager.swift */; };
@@ -51,6 +52,7 @@
 		04BDC7E12A2414AF00BF278B /* Loyalty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loyalty.swift; sourceTree = "<group>"; };
 		04BDC7E32A2414EA00BF278B /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
 		04BDC7E52A24152200BF278B /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		04E4334A2A2CD59700EA94D6 /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		25785C472A2CBC5E00D45C91 /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		25785C482A2CBC5E00D45C91 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		25785C4B2A2CBC6F00D45C91 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = ../Routing/APIManager.swift; sourceTree = "<group>"; };
@@ -137,6 +139,14 @@
 			path = Routing;
 			sourceTree = "<group>";
 		};
+		04E433492A2CD4B100EA94D6 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				04E4334A2A2CD59700EA94D6 /* Onboarding.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		2539380A2A242B6100928CD2 /* Http */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +210,7 @@
 		429B4FED2A241DCE00108787 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04E433492A2CD4B100EA94D6 /* Onboarding */,
 				0481301E2A2CC6CA00BCDE80 /* Worker */,
 				253938152A242D4C00928CD2 /* SignIn */,
 				429B4FEE2A241DE600108787 /* Customer */,
@@ -321,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E4334B2A2CD59700EA94D6 /* Onboarding.swift in Sources */,
 				25785C4A2A2CBC5E00D45C91 /* SignIn.swift in Sources */,
 				048130232A2CC6CA00BCDE80 /* WorkerHomepage.swift in Sources */,
 				25785C502A2CBC6F00D45C91 /* UserAPI.swift in Sources */,
