@@ -27,7 +27,10 @@ struct Homepage: View {
                         animation:  Animation
                             .interpolatingSpring(stiffness: 50, damping: 1)
                             .speed(0.2),
-                        colors: appEnv.loyalties.compactMap { Color($0.backgroundColor)
+                        colors: appEnv.loyalties.compactMap { Color(hex: $0.backgroundColor)
+                                .desaturate(by:30)
+                                .lighten(by: 70)
+                            
                         },
                         colorCount: 100
                     )
@@ -78,15 +81,15 @@ struct Homepage: View {
                             
                             Text(loyalty.store)
                                 .font(.system(size: 20, weight: .bold))
-                                .foregroundColor(Color(loyalty.foregroundColor))
+                                .foregroundColor(Color(hex: loyalty.foregroundColor))
                             Text("\(loyalty.points) Points")
                                 .font(.system(size: 20, weight: .semibold))
-                                .foregroundColor(Color(loyalty.foregroundColor))
+                                .foregroundColor(Color(hex: loyalty.foregroundColor))
                         }
                         .padding()
                         .frame(height: 150)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(Color(loyalty.backgroundColor))
+                        .background(Color(hex: loyalty.backgroundColor))
                         .cornerRadius(10)
                         .onTapGesture {
                             viewModel.getCoupons(
