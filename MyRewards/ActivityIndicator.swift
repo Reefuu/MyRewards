@@ -12,6 +12,7 @@ struct ActivityIndicator: View {
     @State private var isAnimating = false
     
     var body: some View {
+    
         VStack {
             ProgressView()
                 .progressViewStyle(CircularProgressViewStyle())
