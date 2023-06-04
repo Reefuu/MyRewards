@@ -12,6 +12,9 @@
 		0403138B2A244A2C00A30A12 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0403138A2A244A2C00A30A12 /* Alamofire */; };
 		0403138E2A244A7E00A30A12 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 0403138D2A244A7E00A30A12 /* CodeScanner */; };
 		040313912A244AEA00A30A12 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 040313902A244AEA00A30A12 /* SwiftyJSON */; };
+		0481301D2A2CC6A400BCDE80 /* Color+Manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481301C2A2CC6A400BCDE80 /* Color+Manipulation.swift */; };
+		048130222A2CC6CA00BCDE80 /* WorkerHomepageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048130202A2CC6CA00BCDE80 /* WorkerHomepageViewModel.swift */; };
+		048130232A2CC6CA00BCDE80 /* WorkerHomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048130212A2CC6CA00BCDE80 /* WorkerHomepage.swift */; };
 		04BDC7DD2A2413C500BF278B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7DC2A2413C500BF278B /* Store.swift */; };
 		04BDC7E02A24141500BF278B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7DF2A24141500BF278B /* User.swift */; };
 		04BDC7E22A2414AF00BF278B /* Loyalty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC7E12A2414AF00BF278B /* Loyalty.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0481301C2A2CC6A400BCDE80 /* Color+Manipulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Manipulation.swift"; sourceTree = "<group>"; };
+		048130202A2CC6CA00BCDE80 /* WorkerHomepageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerHomepageViewModel.swift; sourceTree = "<group>"; };
+		048130212A2CC6CA00BCDE80 /* WorkerHomepage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerHomepage.swift; sourceTree = "<group>"; };
 		04BDC7DC2A2413C500BF278B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		04BDC7DF2A24141500BF278B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		04BDC7E12A2414AF00BF278B /* Loyalty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loyalty.swift; sourceTree = "<group>"; };
@@ -81,6 +87,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0481301B2A2CC6A400BCDE80 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0481301C2A2CC6A400BCDE80 /* Color+Manipulation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0481301E2A2CC6CA00BCDE80 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				0481301F2A2CC6CA00BCDE80 /* WorkerHomepage */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		0481301F2A2CC6CA00BCDE80 /* WorkerHomepage */ = {
+			isa = PBXGroup;
+			children = (
+				048130202A2CC6CA00BCDE80 /* WorkerHomepageViewModel.swift */,
+				048130212A2CC6CA00BCDE80 /* WorkerHomepage.swift */,
+			);
+			path = WorkerHomepage;
+			sourceTree = "<group>";
+		};
 		04BDC7DE2A2413D000BF278B /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +173,7 @@
 		422D9C632A11CA64004681D7 /* MyRewards */ = {
 			isa = PBXGroup;
 			children = (
+				0481301B2A2CC6A400BCDE80 /* Extensions */,
 				2539380A2A242B6100928CD2 /* Http */,
 				04BDC7EB2A24161400BF278B /* Routing */,
 				04BDC7DE2A2413D000BF278B /* Models */,
@@ -165,6 +197,7 @@
 		429B4FED2A241DCE00108787 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0481301E2A2CC6CA00BCDE80 /* Worker */,
 				429B50082A242E3300108787 /* ActivityIndicator.swift */,
 				429B50072A242E3300108787 /* OverlayableLoadingIndicator.swift */,
 				253938152A242D4C00928CD2 /* SignIn */,
@@ -286,8 +319,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				25785C4A2A2CBC5E00D45C91 /* SignIn.swift in Sources */,
+				048130232A2CC6CA00BCDE80 /* WorkerHomepage.swift in Sources */,
 				25785C502A2CBC6F00D45C91 /* UserAPI.swift in Sources */,
 				04BDC7E62A24152200BF278B /* APIResponse.swift in Sources */,
+				0481301D2A2CC6A400BCDE80 /* Color+Manipulation.swift in Sources */,
 				04BDC7E02A24141500BF278B /* User.swift in Sources */,
 				04BDC7DD2A2413C500BF278B /* Store.swift in Sources */,
 				25785C512A2CBC6F00D45C91 /* StoreAPI.swift in Sources */,
@@ -296,6 +331,7 @@
 				25785C492A2CBC5E00D45C91 /* SignInViewModel.swift in Sources */,
 				422D9C672A11CA64004681D7 /* ContentView.swift in Sources */,
 				04BDC7E42A2414EA00BF278B /* Coupon.swift in Sources */,
+				048130222A2CC6CA00BCDE80 /* WorkerHomepageViewModel.swift in Sources */,
 				429B4FF12A241E5800108787 /* CustomerViewInfoViewModel.swift in Sources */,
 				429B4FF32A241F4900108787 /* CustomerStoreInfo.swift in Sources */,
 				25785C4F2A2CBC6F00D45C91 /* APIManager.swift in Sources */,
