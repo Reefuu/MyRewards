@@ -11,7 +11,7 @@ import Alamofire
 
 struct APIManager {
     
-    static let BASE_URL = "http://206.189.88.192:8000"
+    static let BASE_URL = "https://loyaltyapp.apps.dproject.cloud"
     
     enum APIError: Error {
         case invalidResponse
