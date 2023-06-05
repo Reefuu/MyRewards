@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var appEnv: AppEnvironment
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        }.onAppear {
+            appEnv.pushTo(Routes.onboarding)
         }
-        .padding()
     }
 }
 
